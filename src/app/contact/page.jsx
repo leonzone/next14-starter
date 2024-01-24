@@ -1,6 +1,9 @@
+'use client';
+
 import styles from "./contact.module.css";
 import Image from "next/image";
 const ContactPage = () => {
+    console.log('it works there')
     return (
         <div className={styles.container}>
             <div className={styles.imgContainer}>
