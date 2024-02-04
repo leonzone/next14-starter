@@ -1,7 +1,7 @@
 import styles from "./singlePost.module.css";
 import Image from "next/image";
 import { Suspense } from "react";
-import PostUser from "@/components/PostUser/PostUser";
+import PostUser from "@/components/postUser/postUser";
 
 
 const getData = async (slug) => {
